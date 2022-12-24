@@ -1,0 +1,9 @@
+export const EvgenyDakinov = require("./developers/EvgenyDakinov.jpg");
+export const NikitaNikitin = require("./developers/NikitaNikitin.jpg");
+export const DanilaSikrier = require("./developers/DanilaSikrier.jpg");
+export const MikhailBelov = require("./developers/MikhailBelov.jpg");
+export const apple = require("./food/apple.jpg");
+export const banana = require("./food/banana.jpg");
+export const grapes = require("./food/grapes.jpg");
+export const orange = require("./food/orange.jpg");
+export const tomato = require("./food/tomato.jpg");
