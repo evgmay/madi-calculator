@@ -2,7 +2,12 @@ import React from "react";
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 function NavMenu() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top">
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      variant="dark"
+      fixed="top"
+      style={{ backgroundColor: "rgba(0,0,0,0.5)" }}>
       <Container>
         <Navbar.Brand href="/">Калькулятор калорий</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

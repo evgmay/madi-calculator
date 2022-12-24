@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Card, Carousel, Col, Container, Image, Row } from "react-bootstrap";
+import { Fade } from "react-awesome-reveal";
 
 import {
   EvgenyDakinov,
@@ -92,8 +93,12 @@ function About() {
         <h1 className="text-primary fw-bolder">Разработчики</h1>
         <h2>А так же информация про калорийность продуктов</h2>
       </Header>
-      <Cards />
-      <Carousels />
+      <Fade direction="up" delay={500}>
+        <Cards />
+      </Fade>
+      <Fade direction="left" delay={500}>
+        <Carousels />
+      </Fade>
     </>
   );
 }

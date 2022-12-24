@@ -24,11 +24,6 @@ function Home() {
           <p className="display-1 text-light">Переходи к приложению или посети другие страницы нашего сайта</p>
         </Fade>
       </div>
-      <div className="bg-5">
-        <Fade className="text-center" delay={500} direction="up">
-          <p className="display-1 text-light">Ты прокрутил до конца!</p>
-        </Fade>
-      </div>
     </>
   );
 }

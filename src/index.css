@@ -17,11 +17,11 @@ body {
 
 .bg-1 {
   height: 100vh;
-  background-image: url(./assets/images/background/bg-1.jpg);
+  background-image: url(./assets/gifs/nebula1.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,11 +29,11 @@ body {
 
 .bg-2 {
   height: 100vh;
-  background-image: url(./assets/images/background/bg-2.jpg);
+  background-image: url(./assets/gifs/nebula2.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,7 +41,7 @@ body {
 
 .bg-3 {
   height: 100vh;
-  background-image: url(./assets/images/background/bg-3.jpg);
+  background-image: url(./assets/gifs/gif1.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -53,19 +53,7 @@ body {
 
 .bg-4 {
   height: 100vh;
-  background-image: url(./assets/images/background/bg-4.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.bg-5 {
-  height: 100vh;
-  background-image: url(./assets/images/background/bg-5.jpg);
+  background-image: url(./assets/gifs/gif2.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
